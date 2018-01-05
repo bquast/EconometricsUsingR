@@ -9,3 +9,10 @@ backpropagation_data(n = 50000)
 \description{
 Generate Backpropagation Data
 }
+\seealso{
+Other backpropagation: \code{\link{backpropagation}}
+
+Other data generators: \code{\link{deeplearning_data}},
+  \code{\link{gradientdescent_data}},
+  \code{\link{recurrentneuralnetwork_data}}
+}

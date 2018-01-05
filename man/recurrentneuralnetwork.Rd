@@ -9,3 +9,7 @@ recurrentneuralnetwork(X, Y)
 \description{
 Recurrent Neural Network
 }
+\seealso{
+Other training: \code{\link{backpropagation}},
+  \code{\link{deeplearning}}, \code{\link{gradientdescent}}
+}

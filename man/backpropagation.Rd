@@ -9,3 +9,10 @@ backpropagation(X, Y)
 \description{
 Backpropagation
 }
+\seealso{
+Other backpropagation: \code{\link{backpropagation_data}}
+
+Other training: \code{\link{deeplearning}},
+  \code{\link{gradientdescent}},
+  \code{\link{recurrentneuralnetwork}}
+}

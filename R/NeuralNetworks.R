@@ -1,5 +1,7 @@
 #' Backpropagation
 #' @name backpropagation
+#' @family backpropagation
+#' @family training
 #' @export
 
 backpropagation <- function(X, Y) {
@@ -35,6 +37,8 @@ backpropagation <- function(X, Y) {
 
 #' Deep Learning
 #' @name deeplearning
+#' @family deep learning
+#' @family training
 
 deeplearning <- function(X, Y) {
 
@@ -42,6 +46,8 @@ deeplearning <- function(X, Y) {
 
 #' Gradient Descent
 #' @name gradientdescent
+#' @family gradient descent
+#' @family training
 
 gradientdescent <- function(X, Y) {
 
@@ -49,6 +55,8 @@ gradientdescent <- function(X, Y) {
 
 #' Recurrent Neural Network
 #' @name recurrentneuralnetwork
+#' @family recurrent neural network
+#' @family training
 
 recurrentneuralnetwork <- function(X, Y) {
 
@@ -56,6 +64,8 @@ recurrentneuralnetwork <- function(X, Y) {
 
 #' Generate Backpropagation Data
 #' @name backpropagation_data
+#' @family backpropagation
+#' @family data generators
 #' @export
 
 backpropagation_data <- function(n=50000) {
@@ -81,6 +91,7 @@ backpropagation_data <- function(n=50000) {
 
 #' Generate Deep Learning Data
 #' @name deeplearning_data
+#' @family data generators
 
 deeplearning_data <- function(n=50000) {
 
@@ -88,6 +99,7 @@ deeplearning_data <- function(n=50000) {
 
 #' Generate Gradient Descent Data
 #' @name gradientdescent_data
+#' @family data generators
 
 gradientdescent_data <- function(n=50000) {
 
@@ -95,6 +107,7 @@ gradientdescent_data <- function(n=50000) {
 
 #' Generate Recurrent Neural Network Data
 #' @name recurrentneuralnetwork_data
+#' @family data generators
 
 recurrentneuralnetwork_data <- function(n=50000) {
 

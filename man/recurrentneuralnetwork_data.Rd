@@ -9,3 +9,8 @@ recurrentneuralnetwork_data(n = 50000)
 \description{
 Generate Recurrent Neural Network Data
 }
+\seealso{
+Other data generators: \code{\link{backpropagation_data}},
+  \code{\link{deeplearning_data}},
+  \code{\link{gradientdescent_data}}
+}

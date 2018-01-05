@@ -9,3 +9,8 @@ gradientdescent(X, Y)
 \description{
 Gradient Descent
 }
+\seealso{
+Other training: \code{\link{backpropagation}},
+  \code{\link{deeplearning}},
+  \code{\link{recurrentneuralnetwork}}
+}

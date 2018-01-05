@@ -9,3 +9,8 @@ deeplearning_data(n = 50000)
 \description{
 Generate Deep Learning Data
 }
+\seealso{
+Other data generators: \code{\link{backpropagation_data}},
+  \code{\link{gradientdescent_data}},
+  \code{\link{recurrentneuralnetwork_data}}
+}

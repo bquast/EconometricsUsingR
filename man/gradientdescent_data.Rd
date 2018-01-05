@@ -9,3 +9,8 @@ gradientdescent_data(n = 50000)
 \description{
 Generate Gradient Descent Data
 }
+\seealso{
+Other data generators: \code{\link{backpropagation_data}},
+  \code{\link{deeplearning_data}},
+  \code{\link{recurrentneuralnetwork_data}}
+}

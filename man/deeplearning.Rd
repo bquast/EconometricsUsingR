@@ -9,3 +9,8 @@ deeplearning(X, Y)
 \description{
 Deep Learning
 }
+\seealso{
+Other training: \code{\link{backpropagation}},
+  \code{\link{gradientdescent}},
+  \code{\link{recurrentneuralnetwork}}
+}
