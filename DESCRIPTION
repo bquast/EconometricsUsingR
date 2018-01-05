@@ -3,7 +3,7 @@ Title: Package to accompany the Handbook of Statistics: Econometrics Using R
 Version: 0.0.0.9000
 Authors@R: c( person("Hrishikesh", "Vinod", email = "vinod@fordham.edu", role = c("aut")),
               person("Bastiaan", "Quast", email = "bquast@gmail.com", role = c("aut", "cre")) )
-Description: It accompanies the Handbook of Statistics: Econometrics Using R with code from the chapters.
+Description: Accompanies the Handbook of Statistics: Econometrics Using R with code from the chapters.
 Depends: R (>= 3.0.0)
 License: What license is it under?
 Encoding: UTF-8
