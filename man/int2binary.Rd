@@ -4,7 +4,7 @@
 \alias{int2binary}
 \title{Integer to Binary}
 \usage{
-int2binary(x)
+int2binary(x, binary_dim = 8)
 }
 \description{
 Integer to Binary

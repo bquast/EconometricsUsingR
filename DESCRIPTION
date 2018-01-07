@@ -10,3 +10,6 @@ Url: https://www.elsevier.com/books/computational-statistics-with-r/rao/978-0-44
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.0.1
+Suggests: knitr,
+    rmarkdown
+VignetteBuilder: knitr

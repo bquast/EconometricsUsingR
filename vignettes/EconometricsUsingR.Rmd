@@ -1,0 +1,29 @@
+---
+title: "Economtrics Using R"
+author: "Edited by Hrishikesh D. Vinod and C.R. Rao"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Econometrics Using R}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Welcome to the R package accompanying the Handbook of Statistics XX: Econometrics Using R.
+
+In order to print the code of a function to the console type the name of the function without parentheses at the end, e.g. `rbinom`, but not `rbinom()`
+
+The help pages can be accessed using `?rbinom` or `help("rbinom")`.
+
+## Chapter 1 (A. Nonymous)
+
+In Chapter 1 "nonameyet", we can find functions a, b, and c.
+
+## Chapter X: Neural Networks (B.A. Quast)
+
+The chapter "Neural Networks" contains several code snippets, which are evaluated in the book using knitr.
+
+The snippets are also included in this package as functions.
+
+For more information see the [vignette Neural Networks by clicking here](NeuralNetworks.html), or using:
+
+`vignette("NeuralNetworks")

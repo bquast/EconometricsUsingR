@@ -2,3 +2,9 @@
 
 export(backpropagation_data)
 export(backpropagation_training)
+export(deeplearning_data)
+export(deeplearning_training)
+export(gradientdescent_data)
+export(gradientdescent_training)
+export(recurrentneuralnetwork_data)
+export(recurrentneuralnetwork_training)

@@ -8,6 +8,7 @@
 \title{Econometrics Using R}
 \description{
 This R package accompanies the Handbook of Statistics: Econometrics Using R with code from the chapters.
+The prefered viewing format is using the vignette which can be found by following this link \link{../doc/EconometricsUsingR.html}.
 }
 \section{Chapter 1 (A. Nonymous)}{
 

@@ -30,7 +30,7 @@ backpropagation_data <- function(n=50000) {
 }
 
 #' Backpropagation Training
-#' @name backpropagation
+#' @name backpropagation_training
 #' @family backpropagation
 #' @family training
 #' @export
@@ -71,7 +71,9 @@ backpropagation_training <- function(X, Y) {
 
 #' Generate Deep Learning Data
 #' @name deeplearning_data
+#' @family deep learning
 #' @family data generators
+#' @export
 
 deeplearning_data <- function(n=50000) {
   # begin random numbers in the same spot
@@ -99,9 +101,10 @@ deeplearning_data <- function(n=50000) {
 }
 
 #' Deep Learning Training
-#' @name deeplearning
+#' @name deeplearning_training
 #' @family deep learning
 #' @family training
+#' @export
 
 deeplearning_training <- function(X, Y, hidden_dim=4) {
   n          = length(Y)
@@ -151,15 +154,18 @@ deeplearning_training <- function(X, Y, hidden_dim=4) {
 
 #' Generate Gradient Descent Data
 #' @name gradientdescent_data
+#' @family gradient descent
 #' @family data generators
+#' @export
 
-gradientdescent_data <- deeplearning_data()
+gradientdescent_data <- deeplearning_data
 
 
 #' Gradient Descent Training
-#' @name gradientdescent
+#' @name gradientdescent_training
 #' @family gradient descent
 #' @family training
+#' @export
 
 gradientdescent_training <- function(X, Y, hidden_dim =4, alpha=0.1) {
   n          = length(Y)
@@ -209,7 +215,9 @@ gradientdescent_training <- function(X, Y, hidden_dim =4, alpha=0.1) {
 
 #' Generate Recurrent Neural Network Data
 #' @name recurrentneuralnetwork_data
+#' @family recurrent neural network
 #' @family data generators
+#' @export
 
 recurrentneuralnetwork_data <- function(n=10000, binary_dim=8) {
 
@@ -233,7 +241,8 @@ recurrentneuralnetwork_data <- function(n=10000, binary_dim=8) {
   # convert to binary
   X1 <<- t( sapply(X1, int2binary) )
   X2 <<- t( sapply(X2, int2binary) )
-  Y  <<- t( sapply(Y, int2binary) )
+  Y   <- t( sapply(Y, int2binary) )
+  Y  <<- Y
 
   # print the top of the data
   return(head(Y))
@@ -241,12 +250,15 @@ recurrentneuralnetwork_data <- function(n=10000, binary_dim=8) {
 }
 
 #' Recurrent Neural Network Training
-#' @name recurrentneuralnetwork
+#' @name recurrentneuralnetwork_training
 #' @family recurrent neural network
 #' @family training
+#' @export
 
-recurrentneuralnetwork <- function(X1, X2, Y, hidden_dim=10, alpha=0.1) {
+recurrentneuralnetwork_training <- function(X1, X2, Y, hidden_dim=10, alpha=0.1) {
   # define dimenions manually
+  n          <- dim(X1)[1]
+  binary_dim <- dim(X1)[2]
   input_dim  <- 2
   output_dim <- 1
 
@@ -354,5 +366,5 @@ sig_to_der <- function(x)
 
 #' Integer to Binary
 #' @name int2binary
-int2binary <- function(x)
+int2binary <- function(x, binary_dim=8)
   head(as.integer(intToBits(x) ), binary_dim)

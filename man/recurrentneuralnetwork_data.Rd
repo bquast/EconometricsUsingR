@@ -10,6 +10,8 @@ recurrentneuralnetwork_data(n = 10000, binary_dim = 8)
 Generate Recurrent Neural Network Data
 }
 \seealso{
+Other recurrent neural network: \code{\link{recurrentneuralnetwork_training}}
+
 Other data generators: \code{\link{backpropagation_data}},
   \code{\link{deeplearning_data}},
   \code{\link{gradientdescent_data}}

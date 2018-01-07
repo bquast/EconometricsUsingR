@@ -10,7 +10,7 @@ backpropagation_data(n = 50000)
 Generate Backpropagation Data
 }
 \seealso{
-Other backpropagation: \code{\link{backpropagation}}
+Other backpropagation: \code{\link{backpropagation_training}}
 
 Other data generators: \code{\link{deeplearning_data}},
   \code{\link{gradientdescent_data}},

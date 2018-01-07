@@ -1,0 +1,95 @@
+---
+title: "Neural Networks"
+author: "Bastiaan Quast"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Neural Networks}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+An introductory sentence here.
+
+## Backpropagation
+
+The chapter "Neural Networks" begins with generating data for the backpropagation example.
+
+```{r}
+backpropagation_data(n=50000)
+```
+
+We can now very the objects in our Global Environment.
+
+```{r}
+ls()
+```
+
+And then run the training code.
+
+```{r}
+backpropagation_training(X, Y)
+```
+
+## Deep Learning
+
+Next we move to deep learning, first by generating the data.
+
+```{r}
+deeplearning_data(n=50000)
+```
+
+
+We can now very the objects in our Global Environment.
+
+```{r}
+ls()
+```
+
+And then run the training code.
+
+```{r, hidden_dim=4}
+deeplearning_training(X, Y)
+```
+
+## Gradient Descent
+
+Here gradient decent comes in, first we generate data.
+
+```{r}
+gradientdescent_data(n=50000)
+```
+
+
+We can now very the objects in our Global Environment.
+
+```{r}
+ls()
+```
+
+And then run the training code.
+
+```{r}
+gradientdescent_training(X, Y, hidden_dim=4, alpha=0.1)
+```
+
+## Recurrent Neural Networks
+
+Finally the examples for recurrent neural networks.
+
+```{r}
+recurrentneuralnetwork_data(n=10000, binary_dim=8)
+```
+
+Check the data.
+
+```{r}
+ls()
+```
+
+Now run the training.
+
+```{r}
+recurrentneuralnetwork_training(X1, X2, Y, hidden_dim=10, alpha=0.1)
+```
+
+Return to the [overview page](EconometricsUsingR.html).
