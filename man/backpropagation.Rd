@@ -2,12 +2,13 @@
 % Please edit documentation in R/NeuralNetworks.R
 \name{backpropagation}
 \alias{backpropagation}
-\title{Backpropagation}
+\alias{backpropagation_training}
+\title{Backpropagation Training}
 \usage{
-backpropagation(X, Y)
+backpropagation_training(X, Y)
 }
 \description{
-Backpropagation
+Backpropagation Training
 }
 \seealso{
 Other backpropagation: \code{\link{backpropagation_data}}

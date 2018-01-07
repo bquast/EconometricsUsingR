@@ -2,12 +2,12 @@
 % Please edit documentation in R/NeuralNetworks.R
 \name{recurrentneuralnetwork}
 \alias{recurrentneuralnetwork}
-\title{Recurrent Neural Network}
+\title{Recurrent Neural Network Training}
 \usage{
-recurrentneuralnetwork(X, Y)
+recurrentneuralnetwork(X1, X2, Y, hidden_dim = 10, alpha = 0.1)
 }
 \description{
-Recurrent Neural Network
+Recurrent Neural Network Training
 }
 \seealso{
 Other training: \code{\link{backpropagation}},

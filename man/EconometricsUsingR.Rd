@@ -24,15 +24,15 @@ Backpropagation \cr
 
 Deep Learning \cr
 - \code{\link{deeplearning_data}} \cr
-- \code{\link{deeplearning}} \cr
+- \code{\link{deeplearning_training}} \cr
 
 Gradient Descent \cr
 - \code{\link{gradientdescent_data}} \cr
-- \code{\link{gradientdescent}} \cr
+- \code{\link{gradientdescent_training}} \cr
 
 Recurrent Neural Network \cr
 - \code{\link{recurrentneuralnetwork_data.R}} \cr
-- \code{\link{recurrentneuralnetwork.R}} \cr
+- \code{\link{recurrentneuralnetwork_training.R}} \cr
 }
 
 \references{

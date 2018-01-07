@@ -2,12 +2,13 @@
 % Please edit documentation in R/NeuralNetworks.R
 \name{deeplearning}
 \alias{deeplearning}
-\title{Deep Learning}
+\alias{deeplearning_training}
+\title{Deep Learning Training}
 \usage{
-deeplearning(X, Y)
+deeplearning_training(X, Y, hidden_dim = 4)
 }
 \description{
-Deep Learning
+Deep Learning Training
 }
 \seealso{
 Other training: \code{\link{backpropagation}},

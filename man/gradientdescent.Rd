@@ -2,12 +2,13 @@
 % Please edit documentation in R/NeuralNetworks.R
 \name{gradientdescent}
 \alias{gradientdescent}
-\title{Gradient Descent}
+\alias{gradientdescent_training}
+\title{Gradient Descent Training}
 \usage{
-gradientdescent(X, Y)
+gradientdescent_training(X, Y, hidden_dim = 4, alpha = 0.1)
 }
 \description{
-Gradient Descent
+Gradient Descent Training
 }
 \seealso{
 Other training: \code{\link{backpropagation}},

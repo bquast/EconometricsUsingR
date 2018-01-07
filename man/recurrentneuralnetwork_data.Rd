@@ -4,7 +4,7 @@
 \alias{recurrentneuralnetwork_data}
 \title{Generate Recurrent Neural Network Data}
 \usage{
-recurrentneuralnetwork_data(n = 50000)
+recurrentneuralnetwork_data(n = 10000, binary_dim = 8)
 }
 \description{
 Generate Recurrent Neural Network Data
