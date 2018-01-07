@@ -17,15 +17,15 @@
 #'
 #' Deep Learning \cr
 #' - \code{\link{deeplearning_data}} \cr
-#' - \code{\link{deeplearning}} \cr
+#' - \code{\link{deeplearning_training}} \cr
 #'
 #' Gradient Descent \cr
 #' - \code{\link{gradientdescent_data}} \cr
-#' - \code{\link{gradientdescent}} \cr
+#' - \code{\link{gradientdescent_training}} \cr
 #'
 #' Recurrent Neural Network \cr
 #' - \code{\link{recurrentneuralnetwork_data.R}} \cr
-#' - \code{\link{recurrentneuralnetwork.R}} \cr
+#' - \code{\link{recurrentneuralnetwork_training.R}} \cr
 #'
 #' @references {Handbook of Statistics Volume XX (2018) Econometrics Using R; Edited by Hrishikesh D. Vinod and C.R. Rao}
 #' @seealso \url{https://www.elsevier.com/books/computational-statistics-with-r/rao/978-0-444-63431-3}
