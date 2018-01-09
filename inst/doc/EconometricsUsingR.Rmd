@@ -1,5 +1,5 @@
 ---
-title: "Economtrics Using R"
+title: "Econometrics Using R"
 author: "Edited by Hrishikesh D. Vinod and C.R. Rao"
 output: rmarkdown::html_vignette
 vignette: >
@@ -26,4 +26,4 @@ The snippets are also included in this package as functions.
 
 For more information see the [vignette Neural Networks by clicking here](NeuralNetworks.html), or using:
 
-`vignette("NeuralNetworks")
+`vignette("NeuralNetworks")`
